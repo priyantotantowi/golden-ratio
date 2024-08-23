@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+        <div style="display: flex; flex-direction: column; overflow: hidden;">
+            <div style="width: 100%; height: 80px; background-color: red;">
+                <h1><a href="index.html">golden-ratio</a></h1>
+            </div>
+            <div class="content">
+                <h1>fixed</h1>
+                <div class="box">
+                    <h1>absolute</h1>
+                    <div class="cube">
+                        <h1>absolute-overflow start</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow</h1>
+                        <h1>absolute-overflow end</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    .content {
+      position: fixed;
+      top: 80;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: orange;
+    }
+
+    .box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 50px;
+        background-color: blue;
+    }
+
+    .cube {
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        bottom: 100px;
+        right: 100px;
+        background-color: green;
+        overflow-y: auto;
+    }
+</style>
